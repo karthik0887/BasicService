@@ -4,7 +4,7 @@ public class ConvertCurrencyRequest {
 
 	private String from;
 	
-	private long amount;
+	private String amount;
 	
 	private String to;
 
@@ -16,11 +16,11 @@ public class ConvertCurrencyRequest {
 		this.from = from;
 	}
 
-	public long getAmount() {
+	public String getAmount() {
 		return amount;
 	}
 
-	public void setAmount(long amount) {
+	public void setAmount(String amount) {
 		this.amount = amount;
 	}
 
